@@ -9,6 +9,9 @@
     "test": "jest",
     "build": "tsc"
   },
+  "bin": {
+    "simple-webserver-script-launcher":"./bin/index"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/slhad/simpleWebServerScriptLauncher.git"

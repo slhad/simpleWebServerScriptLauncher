@@ -33,12 +33,8 @@ const listen = () => {
         }
         res.end();
     }).listen(parseInt(port), address, undefined, () => {
-        console.log(`Will listen for ${method} ${port} ${path} -> ${script}`)
+        console.log(`Listening for ${method} ${port} ${path} -> ${script}`)
     });
 }
 
 export default listen
-
-if (!module.require.main) {
-    listen()
-}
