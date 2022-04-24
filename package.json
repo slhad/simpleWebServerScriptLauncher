@@ -1,6 +1,6 @@
 {
   "name": "simple-webserver-script-launcher",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Listen on a method//:ip:port/path and launch a script",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
     "build": "tsc"
   },
   "bin": {
-    "simple-webserver-script-launcher":"./bin/index"
+    "simple-webserver-script-launcher": "./bin/index"
   },
   "repository": {
     "type": "git",
