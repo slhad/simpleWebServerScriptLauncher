@@ -4,7 +4,8 @@
   "description": "Listen on a method//:ip:port/path and launch a script",
   "main": "index.js",
   "scripts": {
-    "start": "node .",
+    "start": "node bin/index",
+    "lint": "eslint --fix .",
     "prestart": "npm run build",
     "test": "jest",
     "build": "tsc"
@@ -28,6 +29,9 @@
   "homepage": "https://github.com/slhad/simpleWebServerScriptLauncher#readme",
   "devDependencies": {
     "@types/node": "^17.0.25",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
+    "eslint": "^8.14.0",
     "typescript": "^4.6.3"
   }
 }
